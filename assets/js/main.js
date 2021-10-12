@@ -17,8 +17,6 @@ menuBarsIcon.addEventListener("click", function(){
 });
 
 //on CLOSE ICON click, remove .active class from div.hamburger-menu 
-// closeMenuIcon.addEventListener("click", function(){
-//     elementMenu.className -= " active";
-//     console.log(elementMenu)
-
-// })
+closeMenuIcon.addEventListener("click", function(){
+    elementMenu.className = "hamburger-menu";
+})
